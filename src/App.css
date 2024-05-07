@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----------------------------------Register page CSS and Login CSS---------------------- */
+.cbody{
+    border: none;
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.229);
+}
+.world{
+    font-weight: bold;
+    color: rgb(27, 106, 175);
+    font-size: 34px;
+}
+.logoText{
+    color: rgb(137, 212, 45);
+    font-size: 3.2rem;   
+}
+.logo{
+    display: inline-block;
+    border-radius: 50%;
+}
+.inputForm{
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 0px 0px 4px rgb(180, 180, 180);
+    outline: none;
+    transition: 0.4s ease-in-out;
+    font-size: 17px;
+    &:hover{
+        outline: dodgerblue;
+        box-shadow: 0px 0px 4px rgb(14, 69, 135);
+    }
+}
+.btnCss{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 1px 6px dodgerblue;
+    &:hover{
+        color: white;
+        background-color: black;
+
+    }
+}
+.loginLink{
+    text-decoration: none;
+}
+
+/* -----------------------------------NavBar CSS---------------------- */
+.navlogoText{
+    color: rgb(137, 212, 45);
+    font-size: 2.8rem;   
+    padding: 0;
+    margin: 0;
+}
+.navLink{
+    color: rgb(61, 34, 74);
+    text-decoration: none;
+    font-size: 17px;
+    box-shadow: 1px 1px 4px rgb(134, 127, 127);
+    border-radius: 2px;
+    transition: 0.4s ease-in-out;
+    margin-right: 1.6rem;
+    &:hover{
+        color: red;
+    }
+}
+.searchDiv{
+    width: 260px;
+    position: relative;
+}
+.searchDiv1{
+    width: 240px;
+    position: relative;
+}
+.searchBar{
+    outline: none;
+    border: none;
+    font-weight:500;
+    background-color:bisque;
+    &:hover{
+        box-shadow: 1px 1px 4px black;
+        color:rgb(31, 28, 33);
+    }
+}
+.searchBtn{
+    border: none;
+    background-color: bisque;
+    font-size: 1.4rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 0rem;
+    padding: 0;
+}
+.searchIcon{
+    color: rgb(45, 86, 151);
+    font-size: 1.7rem;
+    &:hover{
+        color: rgb(95, 148, 222);
+    }
+}
+.editBtn{
+    background-color: rgba(123, 181, 239, 0.842);
+    color:white;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    transition: 0.4s ease-in-out;
+    &:hover{
+        color:red;
+        background-color: rgb(255, 255, 255);
+    }
+}
+.deleteBtn{
+    background-color: rgba(239, 124, 124, 0.416);
+    color:black;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    transition: 0.4s ease-in-out;
+    &:hover{
+        color:rgb(255, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
+}
+.inputField{
+    border: none;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    outline: none;
+    transition: 0.4s ease-in-out;
+    &:hover{
+        border:1px solid dodgerblue;
+    }
+}
+/* ------------------------------Employee Section CSS-------------------- */
+.empImg{
+    border-radius: 50%;
+}
+.searchDivEmp{
+    position: relative;
+}
+.chatReq{
+    background-color: rgba(0, 255, 255, 0.24);
+    border-radius: 2px;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    color: black;
+    &:hover{
+        background-color: rgba(32, 31, 29, 0.756);
+        color: white;
+    }
+}
+
+/* -----------------------------Visitor---------------------------------- */
+.textShadow{
+    text-shadow: 1px 2px 4px rgb(189, 189, 189);
+}
+
+/* -------------------------event css------------------------------ */
+.Notes{
+    width: 19rem;
+    padding: 0.6rem;
+    box-shadow: 1px 3px 8px rgb(146, 156, 135);
+    box-sizing: border-box;
+    background-color: rgba(191, 243, 153, 0.458);
+}
+.flex{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+/* -------------------------------Announcements----------------- */
+.announcements {
+    display: inline-flex; 
+    animation: scroll 30s linear infinite;
+
+    &:hover{
+        animation-play-state: paused;
+    }
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(calc(-100% - 5px));
+    }
+  }
+  /* -------------------------enquiry------------------ */
+  .EnquiryImg{
+    box-shadow: 2px 2px 4px rgb(144, 123, 123);
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+  }
+
+  /* -------------------------Chat Section CSS ------------ */
+/* .ReceiverMessage{
+    background-color: rgb(230, 230, 230);
+    display:inline-block;
+    border-radius: 0px 0.5pc 0.5pc 0.5pc;
+}
+.SenderMessage{
+    background-color: rgba(5, 122, 5, 0.334);
+    display:inline-block;
+    border-radius: 0px 0.5pc 0.5pc 0.5pc;
+} */
+.inputDiv{
+    position: 'absolute';
+    left: '20px';
+    right: '20px';
+}
+.ChatInput{
+    width: calc(100% - 80px);
+    border: none;
+    outline: none;
+    border: 1.5px solid lightgray;
+    &:hover{
+        border: 1.5px solid lightgreen;
+    }
+}
+.chatBg{
+    background-color: rgba(0, 128, 0, 0.462);
+}
+.SendBtn{
+    color: green;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 8px;   
+    &:hover{
+        color: blueviolet;
+    } 
+}
+
+/* ----------------------------------Admin CSS--------------------- */
+/* vertical Navbar css */
+.Vnavbar{
+    width: 14rem;
+    background-color: rgba(0, 0, 0, 0.729);
+}
+.a{
+    background-color: rgb(243, 243, 243);
+}
+.vLinks{
+    text-decoration: none;
+    margin: 0.6rem 0rem;
+    &:hover{
+        background-color: rgba(26, 32, 39, 0.722);
+        /* background-color: rgba(38, 133, 228, 0.521); */
+    }
+}
+.gridApply{
+    display: flex;
+    gap: 15rem;
+}
+.ddown{
+    transition: 0.3s ease-in-out;
+    padding-left: 1.4rem;
+    &:hover{
+        background-color: rgba(29, 85, 141, 0.797);
+    }
+}
+.ddown1{
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+    /* padding-left: 1.4rem; */
+    background-color: rgba(85, 137, 189, 0.247);
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.558);
+    }
+}
+
+.LinkColor{
+    color: black;
+    &:hover{
+        color: white;
+    }
+}
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.Sep_Margin{
+    margin-left: 0;
+} 
+
+@media (min-width: 992px) {
+    .Sep_Margin {
+      margin-left: 14rem;
+    }
+  }
